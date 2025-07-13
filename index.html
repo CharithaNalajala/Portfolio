@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charitha Sri Nalajala - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <h1>CHARITHA SRI NALAJALA</h1>
+        <div class="photo">
+          <img src="profile.jpg" alt="Profile Photo" />
+        </div>
+        <p><strong>Email:</strong> <a href="mailto:nalajalanalini879@gmail.com">nalajalanalini879@gmail.com</a></p>
+        <p><strong>Location:</strong> Bhimavaram, India</p>
+      </div>
+
+      <section>
+        <h2>About Me</h2>
+        <p>I am a motivated B.Tech student in Artificial Intelligence & Machine Learning at SRKR Engineering College. I enjoy building full-stack web applications and exploring machine learning to solve real-world problems. I value continuous learning, collaboration, and using technology for social good.</p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>Languages: Java, Python</li>
+          <li>Web: HTML, CSS, JavaScript, React.js</li>
+          <li>Databases: MongoDB, SQL (basic)</li>
+          <li>Tools: Git, Google Colab, Windows</li>
+          <li>Soft Skills: Time Management, Adaptability, Communication</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Vehicle Failure Prediction System</strong> – Built using ML models like Random Forest and Logistic Regression.</li>
+          <li><strong>Sports & Travel Blogging Website</strong> – MERN stack project with authentication and interactive map.</li>
+          <li><strong>SmartSpend – Financial Literacy Platform</strong> – Built with HTML/CSS/JS, includes budgeting tools and story-based learning.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Full Stack Web Development – AICTE IDEA LAB</li>
+          <li>Python Essentials – Cisco</li>
+          <li>ML for Cybersecurity – CDAC Hyderabad</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Blogging about technology</li>
+          <li>Learning new things</li>
+          <li>Participating in coding contests</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nalajalanalini879@gmail.com">nalajalanalini879@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/CharithaNalajala" target="_blank">github.com/CharithaNalajala</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/charitha-sri-nalajala-52a9b12b9" target="_blank">linkedin.com/in/charitha-sri-nalajala</a></p>
+      </section>
+
+      <footer>
+        <p>© 2025 Charitha Sri Nalajala</p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Dark Mode Button (Bottom-Right) -->
+  <div class="dark-toggle-wrapper">
+    <button class="dark-mode-btn" id="toggleBtn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </div>
+
+  <!-- Script -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+      const btn = document.getElementById("toggleBtn");
+      btn.innerText = document.body.classList.contains("dark")
+        ? "☀️ Light Mode"
+        : "🌙 Dark Mode";
+    }
+  </script>
+
+</body>
+</html>
